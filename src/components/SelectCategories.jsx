@@ -21,6 +21,16 @@ const SelectContainer = styled.div`
   &:hover {
     background: ${theme.grisClaro2};
   }
+
+  @media (max-width: 769px) {
+   
+    width: 250px;
+    display: flex;
+    justify-content:center;
+
+  }  
+   
+  
 `;
 
 const OpctionSelect = styled.div`
@@ -34,6 +44,10 @@ const OpctionSelect = styled.div`
     height: auto;
     margin-left: 1.25rem; /* 20px */
   }
+
+ 
+  
+
 `;
 
 const Opctions = styled.div`
@@ -45,6 +59,9 @@ const Opctions = styled.div`
   border-radius: 0.625rem; /* 10px */
   max-height: 18.75rem; /* 300px */
   overflow-y: auto;
+
+ 
+
 `;
 
 const Opction = styled.div`
@@ -58,6 +75,9 @@ const Opction = styled.div`
   &:hover {
     background: ${theme.grisClaro2};
   }
+
+  
+}
 `;
 
 function SelectCategories({categorie, setCategorie, showSelect, setShowSelect}) {

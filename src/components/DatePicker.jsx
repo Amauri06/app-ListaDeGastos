@@ -50,6 +50,11 @@ const InputContainer = styled.div`
             width: 100%;
         }
     }
+
+    @media(max-width: 769px){
+      z-index:10;
+      
+    }
 `;
 
 const formatDate = (date = new Date()) =>{

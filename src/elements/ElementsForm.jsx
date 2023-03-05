@@ -18,7 +18,7 @@ const ContainerFilters = styled.div`
     }
     
     @media(max-width: 769px){
-        flex-direction: center;
+        justify-content: center;
         
     }
 
@@ -68,6 +68,13 @@ const Input = styled.input`
     @media(max-width: 60rem){ /* 950px */
         font-size: 2.2rem; /* 24px */
     }
+
+    @media(max-width: 769px){
+        
+            font-size: 20px;
+            
+    }
+
 `;
  
 const InputLarge = styled(Input)`
@@ -80,9 +87,7 @@ const ContainerButton = styled.div`
     display: flex;
     justify-content: center;
     margin: 2.5rem 0;  /* 40px */
-    
-    
-  
+
     
 `;
 

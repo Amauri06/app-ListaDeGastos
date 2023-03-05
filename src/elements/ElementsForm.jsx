@@ -69,6 +69,8 @@ const ContainerButton = styled.div`
     display: flex;
     justify-content: center;
     margin: 2.5rem 0;  /* 40px */
+
+    
 `;
 
 export  {ContainerFilters, ContainerButton, InputLarge, Form, Input}

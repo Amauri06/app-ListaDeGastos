@@ -20,6 +20,8 @@ const Title = styled.h1`
     @media(max-width: 60rem){ /* 950px */
         font-size: 2rem; /* 32px */
     }
+
+    
 `;
  
 const ContainerHeader = styled.div`
@@ -38,6 +40,8 @@ const ContainerHeader = styled.div`
             justify-content: end;
         }
     }
+
+    
 `;
  
 const ContainerButtons = styled.div`
@@ -47,7 +51,7 @@ const ContainerButtons = styled.div`
 
     @media (max-width: 769px) {
         width: 345px;
-        margin-top: 10px;
+        margin-top: 20px;
     }  
 
 `;

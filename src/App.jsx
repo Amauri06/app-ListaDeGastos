@@ -22,8 +22,8 @@ function App() {
       <Header>
         <ContainerHeader>
         <ContainerButtons>
-            <Button to="/categorias">Seleccionar</Button>
-            <Button to="/lista">Ver</Button>
+            <Button to="/categorias">Ver</Button>
+            <Button to="/lista">Mas</Button>
             <BtnLogout />
           </ContainerButtons>
           <Title> Agregar Gastos🔥🤑</Title>

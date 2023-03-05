@@ -20,6 +20,11 @@ const Container = styled.div`
         height: 95vh;
         max-height: none;
     }
+
+    @media(max-width: 769px){
+        width: 95%;
+        height: 100vh;
+    }
 `;
 
 export default Container;

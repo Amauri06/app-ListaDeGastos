@@ -21,6 +21,13 @@ const BarContainer = styled.div`
         flex-direction: column;
         font-size: 14px;
     }
+    
+    @media(max-width: 769px){
+      padding-top: 15px 
+        
+      }  
+      
+
 `;
 
 function BarSpent() {

@@ -25,6 +25,7 @@ const SelectContainer = styled.div`
   @media (max-width: 769px) {
     margin-left: 28px;
     width: 250px;
+    height: 55px;
     
   }  
    
@@ -55,7 +56,8 @@ const Opctions = styled.div`
   border-radius: 0.625rem; /* 10px */
   max-height: 18.75rem; /* 300px */
   overflow-y: auto;
-
+   
+  
 
 `;
 
@@ -70,6 +72,7 @@ const Opction = styled.div`
   &:hover {
     background: ${theme.grisClaro2};
   }
+  
   
 }
 `;

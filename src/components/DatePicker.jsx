@@ -53,6 +53,8 @@ const InputContainer = styled.div`
 
     @media(max-width: 769px){
       z-index:10;
+        padding: 200px, 0px, 200px, 0px;
+      }  
       
     }
 `;

@@ -18,7 +18,7 @@ const ContainerFilters = styled.div`
     }
     
     @media(max-width: 769px){
-        flex-direction: center;
+        justify-content: center;
         
     }
 
@@ -45,6 +45,16 @@ const Form = styled.form`
     @media(max-width: 60rem){ /* 950px */
         justify-content: start;
     }
+
+    @media(max-width: 769px){
+        
+        input {
+            width: 95%;
+            font-size: 20px;
+            justify-content:center;
+            }
+    }
+  
    
 `;
  
@@ -58,11 +68,19 @@ const Input = styled.input`
     @media(max-width: 60rem){ /* 950px */
         font-size: 2.2rem; /* 24px */
     }
+
+    @media(max-width: 769px){
+        
+            font-size: 20px;
+            
+    }
+
 `;
  
 const InputLarge = styled(Input)`
     font-size: 4.37rem; /* 70px */
     font-weight: bold;
+    
 `;
  
 const ContainerButton = styled.div`

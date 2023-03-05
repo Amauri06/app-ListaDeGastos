@@ -50,8 +50,8 @@ const ContainerButtons = styled.div`
     align-items: center;
 
     @media (max-width: 769px) {
-        width: 345px;
-        margin-top: 20px;
+        width: 350px;
+        margin-top: 15px;
     }  
 
 `;

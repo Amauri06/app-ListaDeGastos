@@ -16,14 +16,14 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Agregar Gastos</title>
+        <title>My Money 💵✅</title>
       </Helmet>
 
       <Header>
         <ContainerHeader>
         <ContainerButtons>
-            <Button to="/categorias">Categorias</Button>
-            <Button to="/lista">Listaf</Button>
+            <Button to="/categorias">Seleccionar</Button>
+            <Button to="/lista">Ver</Button>
             <BtnLogout />
           </ContainerButtons>
           <Title> Agregar Gastos</Title>

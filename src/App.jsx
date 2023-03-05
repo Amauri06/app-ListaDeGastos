@@ -23,7 +23,7 @@ function App() {
         <ContainerHeader>
         <ContainerButtons>
             <Button to="/categorias">Categorias</Button>
-            <Button to="/lista">Lista</Button>
+            <Button to="/lista">Listaf</Button>
             <BtnLogout />
           </ContainerButtons>
           <Title> Agregar Gastos</Title>

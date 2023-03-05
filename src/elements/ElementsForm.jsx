@@ -45,6 +45,16 @@ const Form = styled.form`
     @media(max-width: 60rem){ /* 950px */
         justify-content: start;
     }
+
+    @media(max-width: 769px){
+        
+        input {
+            width: 95%;
+            font-size: 20px;
+            justify-content:center;
+            }
+    }
+  
    
 `;
  
@@ -63,13 +73,16 @@ const Input = styled.input`
 const InputLarge = styled(Input)`
     font-size: 4.37rem; /* 70px */
     font-weight: bold;
+    
 `;
  
 const ContainerButton = styled.div`
     display: flex;
     justify-content: center;
     margin: 2.5rem 0;  /* 40px */
-
+    
+    
+  
     
 `;
 

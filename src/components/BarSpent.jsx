@@ -21,6 +21,8 @@ const BarContainer = styled.div`
         flex-direction: column;
         font-size: 14px;
     }
+   
+
 `;
 
 function BarSpent() {

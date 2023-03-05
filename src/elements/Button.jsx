@@ -25,6 +25,8 @@ const Button = styled(Link)`
         height: ${(props) => props.iconoGrande ? '100%' : '0.75rem;'};  /* 12px */
         fill: white;
     }
+
+    
    
 `;
 

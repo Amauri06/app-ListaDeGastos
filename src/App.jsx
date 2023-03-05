@@ -26,7 +26,7 @@ function App() {
             <Button to="/lista">Ver</Button>
             <BtnLogout />
           </ContainerButtons>
-          <Title> Agregar Gastos</Title>
+          <Title> Agregar Gastos🔥🤑</Title>
         </ContainerHeader>
       </Header>
       <ExpenseForm />

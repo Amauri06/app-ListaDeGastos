@@ -16,6 +16,13 @@ const ContainerFilters = styled.div`
             margin-bottom: 0.62rem; /* 10px */
         }
     }
+    
+    @media(max-width: 769px){
+        flex-direction: center;
+        
+    }
+
+    
 `;
  
 const Form = styled.form`
@@ -38,6 +45,7 @@ const Form = styled.form`
     @media(max-width: 60rem){ /* 950px */
         justify-content: start;
     }
+   
 `;
  
 const Input = styled.input`

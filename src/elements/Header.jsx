@@ -44,6 +44,12 @@ const ContainerButtons = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media (max-width: 769px) {
+        width: 345px;
+        margin-top: 10px;
+    }  
+
 `;
 
 export {Header, Title, ContainerHeader, ContainerButtons};

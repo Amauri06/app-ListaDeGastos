@@ -23,11 +23,9 @@ const SelectContainer = styled.div`
   }
 
   @media (max-width: 769px) {
-   
+    margin-left: 28px;
     width: 250px;
-    display: flex;
-    justify-content:center;
-
+    
   }  
    
   
@@ -45,8 +43,6 @@ const OpctionSelect = styled.div`
     margin-left: 1.25rem; /* 20px */
   }
 
- 
-  
 
 `;
 
@@ -59,8 +55,6 @@ const Opctions = styled.div`
   border-radius: 0.625rem; /* 10px */
   max-height: 18.75rem; /* 300px */
   overflow-y: auto;
-
- 
 
 `;
 

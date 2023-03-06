@@ -22,7 +22,7 @@ function App() {
       <Header>
         <ContainerHeader>
         <ContainerButtons>
-            <Button to="/categorias">Ver</Button>
+            <Button to="/categorias">⌸</Button>
             <Button to="/lista">Mas</Button>
             <BtnLogout />
           </ContainerButtons>
